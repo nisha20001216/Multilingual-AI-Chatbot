@@ -84,7 +84,7 @@ Execute python evaluation/rag_eval.py:
 -Verify vector DB ingestion via the UI sidebar trigger or CLI python src/rag/ingest.py.
 
  ## 5. Repository Structure
-
+```bash
  ├── .streamlit/
 │   └── secrets.toml             # API key templates & configuration defaults
 ├── .gitignore                   # Ignores __pycache__, vector store binaries, .env
