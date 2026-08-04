@@ -6,8 +6,8 @@
 
 Build a production-ready, multi-agent RAG application in Python using Streamlit, LangGraph, ChromaDB, Groq API, and OpenRouter API to deliver trilingual (Sinhala, Tamil, English) student support for Sri Lankan Higher Education.
 
-## 1.Architecture & Design Patterns
-## Multi-Agent Workflow (LangGraph StateGraph)
+## 1. Architecture & Design Patterns
+### Multi-Agent Workflow (LangGraph StateGraph)
 The core workflow uses a state-driven multi-agent Graph containing:
 
 ### a. Router Agent:
@@ -68,7 +68,6 @@ The core workflow uses a state-driven multi-agent Graph containing:
    ```bash
    streamlit run app.py
    ```
-   ```bash
 
 ## 4. Verification Plan
 
