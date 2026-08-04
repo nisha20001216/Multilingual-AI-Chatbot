@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Vector Store local files
+chroma_db/
+*.sqlite3
+
+# Environment
+.env
+venv/
+.venv/
